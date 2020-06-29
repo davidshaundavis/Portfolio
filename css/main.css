@@ -189,7 +189,7 @@ dd {
 	padding-bottom: 1em; margin-left: 1.4em;
 	}
 /* Bootstrap Grid Fix */
-@media (max-width:767px){
+@media (max-width: 767px){
 	.col-xs-6:nth-child(2n+1) { clear: left; }
 }
 
@@ -583,6 +583,10 @@ body {
 	.nav-menu ul i:before { 
 		font-size: 2.2em; 
 		}
+	
+	.section-title .about-me-excerpt p {
+		font-size: 14px;
+	}
 }
 
 /* LARGER MENU ICONS ON LARGE DEVICES */
@@ -595,6 +599,14 @@ body {
 	.nav-menu ul i:before { 
 		font-size: 2.8em;
 		}	
+}
+
+/* SMALLER MENU ICONS ON MID RANGE DESKTOPS */
+@media screen and (max-width: 768px) { 
+	.section-title .about-me-excerpt p {
+		font-size: 0.6em;
+		width: 100%;
+	}
 }
 
 	
@@ -776,6 +788,7 @@ body {
 /* SECTION TITLE */
 .section-title { 
 	margin: 2em 0 2em; position: relative; z-index: 10; 
+	
 	}
 .page-title + .section-title,
 .section-title:first-child { 
@@ -2455,12 +2468,18 @@ a.more-link:hover,
 	}
 
 	.section-title .about-me-excerpt  {
-		margin: auto;
-		width: 50%;
+		margin: 0 auto;
+		width: 70%;
 		margin-top: 60px;
 	}
 
 	.section-title .about-me-excerpt p {
 		line-height: 2em;
 		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 1.1em;
 	}
+
+	
+	
