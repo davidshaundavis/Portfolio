@@ -788,7 +788,6 @@ body {
 /* SECTION TITLE */
 .section-title { 
 	margin: 2em 0 2em; position: relative; z-index: 10; 
-	
 	}
 .page-title + .section-title,
 .section-title:first-child { 
@@ -819,7 +818,15 @@ body {
 .section-title h2 i:after {
 	left: auto; right: -.05em; border-top: 0.5em solid #080b0c; border-top: 0.5em solid rgba(8, 11, 12, 0.2); border-right: .5em solid transparent;
 	}
+#about > div > div > div:nth-child(4) {
+		margin-top: 69px;
+		padding-bottom: 12px;
+	}
+#about > div > div > div:nth-child(6) {
+		padding-bottom: 8px;
+	}
 
+	
 /* TYPIST ROTATE WORDS */
 .selectedText {
 	display: none;
@@ -831,7 +838,7 @@ body {
 	}
 	.service i,
 	.service img { 
-        display: inline-block; float: left; width: 50px; margin: 0; line-height: 50px; font-size: 40px; text-align: center;
+        display: inline-block; width: 50px; margin: 0; line-height: 50px; font-size: 40px; text-align: center;
 		}
 	.service i:before { 
 		margin: 0 .2em; display: inline-block; 
