@@ -2366,6 +2366,7 @@ a.more-link:hover {
 	}
 .portfolio-single .entry-content .gallery-item img {
 	margin: 0;
+	max-height: 259px;
     }
 /* portfolio single nav  */
 .portfolio-nav {
