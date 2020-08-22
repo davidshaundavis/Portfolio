@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+
+body {
+	font-family: roboto;
+}
+
+#welcome {
+	display: grid;
+	grid-template-columns: 350px 1fr;
+	width: 100%;
+	height: 100vh;
+}
+
+#welcome .welcome-menu {
+	background: white;
+	padding: 50px;
+	position: relative;
+}
+
+#welcome .welcome-menu .logo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#welcome .welcome-menu .logo img {
+	max-width: 100px;
+	background-color: white;
+}
+
+#welcome .welcome-menu .menu {
+	margin-bottom: 50px;
+	background: white;
+}
+
+#welcome .welcome-menu .menu .menu-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2rem;
+	border-bottom: 2px solid #e2eaef;
+	padding-bottom: 20px;
+	color: #0971ce;
+	margin-bottom: 20px;
+}
+
+#welcome .welcome-menu .menu .links li a {
+	color: black;
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-decoration: none;
+	margin-bottom: 1.4rem;
+	display: block;
+}
+
+#welcome .welcome-menu .menu .links li a:hover {
+	color: red;
+	transition: color .3s ease-in-out;
+}
+
+#welcome .welcome-menu .social-icons {
+	display: flex;
+}
+
+#welcome .welcome-menu .social-icons a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #c2c8cc;
+	font-size: .9rem;
+	color: white;
+	text-decoration: none;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+#welcome .welcome-menu .social-icons a:hover {
+	color: red;
+	transition: color .3s ease-in-out;
+}
+
+#welcome .welcome-menu .location {
+	align-self: flex-end;
+	position: absolute;
+	bottom: 50px;
+	line-height: 1.5;
+}
+
+#welcome .welcome-menu .location .address {
+	color: #7a8d99;
+	margin-bottom: 20px;
+}
+
+#welcome .welcome-menu .location .phone-number a {
+	color: #0971ce;
+	text-decoration: none;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+#welcome .welcome-jumbo {
+	max-width: calc(100vw - 350px);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	background: #3ea0f7;
+	background: #ed4852;
+	/* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ed4852 0%, #9c1b24 100%);
+	/* FF3.6- 15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #ed4852 0%, #9c1b24 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#welcome .welcome-jumbo .status {
+	display: inline-block;
+	padding: 20px;
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: white;
+	background: black;
+	border-radius: 5px;
+	align-self: flex-start;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+#welcome .welcome-jumbo h1 {
+	font-size: 4rem;
+	font-weight: 900;
+	align-self: flex-start;
+	color: white;
+}
+
+#welcome .welcome-jumbo .burger-fries {
+	width: 100%;
+	padding-top: 0;
+}
+
+/* INFORMATION SECTION */
+.information {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 100vh;
+}
+
+
+#information .information .info-img img {
+	width: 100%;
+	height: 1200px;
+	object-fit: cover;
+}
+
+#information .information .info h2 {
+	font-size: 2.7rem;
+	padding-top: 300px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#information .information .info .paragraph {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 20px;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+#information .information .info .paragraph p {
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 20px;
+	line-height: 1.5;
+	color: #525e66;
+}
+
+#information .information .info h4 {
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 2rem;
+	padding-top: 20px;
+	font-weight: 700;
+	margin-left: 20%;
+}
+
+#information .information .info a i {
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 2.5rem;
+	padding-top: 20px;
+	color: #9c1b24;
+}
+
+
+/* MENU SECTION */
+#menu {
+	background: #f4f8fb;
+	height: 100vh;
+	margin-top: 68px;
+}
+
+#menu .menu .menu-banner h2 {
+	text-align: center;
+	font-size: 2.7rem;
+	font-weight: 700;
+	padding-top: 200px;
+	margin-bottom: 70px;
+}
+
+#menu .menu .menu-banner .button {
+	text-align: center;
+}
+
+#menu .menu .menu-banner .button a {
+	font-size: 1.2rem;
+	text-decoration: none;
+	background-color: #ed4852;
+	color: white;
+	width: 200px;
+	padding: 20px;
+	border-radius: 40px;
+	text-align: center;
+}
+
+#menu .menu .menu-popup {
+	display: flex;
+	justify-content: center;
+	margin-top: 175px;
+	height: 600px;
+}
+
+#menu .menu .menu-popup .slider .popup {
+	padding-top: 10px;
+	padding-bottom: 75px;
+	background: white;
+	width: 300px;
+	color: black;
+}
+
+#menu .menu .menu-popup .slider .popup a {
+	text-decoration: none;
+}
+
+#menu .menu .menu-popup .slider .popup h5 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#menu .menu .menu-popup .slider .popup p {
+	line-height: 1.3rem;
+	font-size: .9rem;
+	text-align: left;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#menu .menu .menu-popup .slider .popup img {
+	width: 200px;
+	height: 120px;
+	margin-left: 40px;
+}
+
+#menu .menu .menu-popup .slider .popup:hover {
+	background: #ed4852;
+	color: white;
+	position: relative;
+	top: -50px;
+	transition: 0.3s ease-in-out;
+}
