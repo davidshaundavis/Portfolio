@@ -4,6 +4,10 @@ body {
 	font-family: roboto;
 }
 
+#zoom {
+	zoom: 67%;
+}
+
 #welcome {
 	display: grid;
 	grid-template-columns: 350px 1fr;
