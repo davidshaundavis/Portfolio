@@ -4,9 +4,6 @@ body {
 	font-family: roboto;
 }
 
-#zoom {
-	zoom: 67%;
-}
 
 #welcome {
 	display: grid;
